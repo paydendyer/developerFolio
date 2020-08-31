@@ -7,21 +7,21 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Payden Dyer",
+  title: "Hi all, I'm Payden",
+  subTitle: emoji("A passionate Software Developer 🚀 with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  resumeLink: "https://drive.google.com/file/d/1sMa2UISTgCvKyeSVou1URWyYDbkEf-o5/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/paydendyer",
+  linkedin: "https://www.linkedin.com/in/paydendyer/",
+  gmail: "payden.dyer@outlook.com",
+  /**gitlab: "https://gitlab.com/saadpasta",*/
+  facebook: "https://www.facebook.com/payden.dyer.9/"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -29,7 +29,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FRONT END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
@@ -65,32 +65,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ]
 };
@@ -101,15 +81,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "HTML/CSS",  //Insert stack or technology you have experience in
+      progressPercentage: "100%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "JavaScript",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "React",
       progressPercentage: "60%"
     }
   ]
@@ -122,29 +102,26 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Computer Programming",  
+      company: "Metropolitan Community College",
+      companylogo: require("./assets/images/MCC.png"),
+      date: "August 2019 – Present",
+      //desc:,
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Web Page Creation",
+        "WordPress",
+        "JavaScript 1 & 2(React, Angular)",
+        "Problem Solving & Programming",
+        "Database Design",
+        "Cloud Computing(AWS)"
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "JavaScript",   
+      company: "Do Space",
+      companylogo: require("./assets/images/dospace.png"),
+      date: "March 2020 – June 2020",
+      desc: "Hello Code 2 is an eight-week course requiring coding experience that explores JavaScript and dynamic and responsive web applications."
     },
   ]
 };
@@ -162,8 +139,8 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME PROJECTS I HAVE BEEN WORKING ON",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -185,29 +162,30 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Twitter Flight School",
+      subtitle: "An online learning platform that teaches you everything you need to know about advertising on Twitter.",
+      image: require("./assets/images/flightschool.png"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "View Certification", url: "https://www.twitterflightschool.com/student/award/118954790" },
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "Free Code Camp",
+      subtitle: "Completed coursework and projects for Responsive Web Design",
+      image: require("./assets/images/freeCodeCamp.png"),
+      footerLink: [
+        { name: "View Certification", url: "https://www.freecodecamp.org/certification/payden/responsive-web-design" },
+        { name: "View Technical Documentation Project", url: "https://codepen.io/paydendyer/pen/abvNyqb"}
+      
+      ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Codecademy",
+      subtitle: "Completed Certifcation for React, HTML, CSS, JavaScript, Alexa Skills, Lambda",
+      image: require("./assets/images/codecademy.png"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "View Certifications", url: "https://www.codecademy.com/profiles/paydendyer" }
       ]
     }
   ]
@@ -215,7 +193,7 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = {
+/*const blogSection = {
 
   title: "Blogs",
   subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
@@ -259,19 +237,19 @@ const podcastSection = {
   // Please Provide with Your Podcast embeded Link
   podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
 };
-
+*/
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 402-213-2311",
+  email_address: "payden.dyer@outlook.com"
 };
 
 //Twitter Section
 
-const twitterDetails = {
+/*const twitterDetails = {
 
   userName : "twitter"//Replace "twitter" with your twitter username without @
   
-};
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+};*/
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, contactInfo };
