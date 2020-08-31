@@ -1,1 +1,10 @@
-{}
+{
+	"auth": {
+		"paydend1e3d75a": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
