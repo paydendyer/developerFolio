@@ -145,6 +145,12 @@ const bigProjects = {
       image: require("./assets/images/ravenous.png"),
       link: "https://master.d2vg1mmfqvou5l.amplifyapp.com"
     },
+    {
+        title: "Photography by Payden",
+        subtitle: "This is my portfolio webpage for photography",
+        image: require("./assets/images/photography.png"),
+        link: "https://photosbypayden.mypixieset.com/"
+    }
   ]
 };
 
