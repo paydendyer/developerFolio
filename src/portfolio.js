@@ -26,7 +26,6 @@ const socialMediaLinks = {
 };
 
 // Your Skills Section
-
 const skillsSection = {
   title: "What i do",
   subTitle: "FRONT END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
