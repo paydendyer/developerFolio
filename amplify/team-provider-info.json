@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-payden-dev-02943-authRole",
+            "UnauthRoleArn": "arn:aws:iam::449372464818:role/amplify-payden-dev-02943-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::449372464818:role/amplify-payden-dev-02943-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-payden-dev-02943-deployment",
+            "UnauthRoleName": "amplify-payden-dev-02943-unauthRole",
+            "StackName": "amplify-payden-dev-02943",
+            "StackId": "arn:aws:cloudformation:us-east-2:449372464818:stack/amplify-payden-dev-02943/fc642430-eb4a-11ea-bc44-023006f8d510",
+            "AmplifyAppId": "d3bbfdzf3juxc2"
+        }
+    }
+}
