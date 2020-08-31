@@ -130,7 +130,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "paydendyer", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -142,12 +142,13 @@ const bigProjects = {
   subtitle: "SOME PROJECTS I HAVE BEEN WORKING ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      title: "Restaurant search webpage",
+      image: require("./assets/images/ravenous.png"),
+      link: "https://master.d2vg1mmfqvou5l.amplifyapp.com"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      //image: require("./assets/images/nextuLogo.webp"),
+     // link: "http://nextu.se/"
     }
   ]
 };
