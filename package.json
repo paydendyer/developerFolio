@@ -5,7 +5,9 @@
   "private": true,
   "dependencies": {
     "@apollo/react-hooks": "^3.1.4",
+    "@aws-amplify/ui-react": "^0.2.15",
     "apollo-boost": "^0.4.4",
+    "aws-amplify": "^3.0.24",
     "colorthief": "^2.3.0",
     "gh-pages": "^2.1.1",
     "graphql": "^14.5.8",
