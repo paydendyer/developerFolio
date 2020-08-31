@@ -94,7 +94,6 @@ const techStack = {
   ]
 };
 
-
 // Your top 3 work experiences
 
 const workExperiences = {
@@ -146,10 +145,6 @@ const bigProjects = {
       image: require("./assets/images/ravenous.png"),
       link: "https://master.d2vg1mmfqvou5l.amplifyapp.com"
     },
-    {
-      //image: require("./assets/images/nextuLogo.webp"),
-     // link: "http://nextu.se/"
-    }
   ]
 };
 
