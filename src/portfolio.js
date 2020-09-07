@@ -31,8 +31,8 @@ const skillsSection = {
   subTitle: "FRONT END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Progressive Web Applications with React"),
+    emoji("⚡ Integration of third party services such as Firebase/ AWS")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -186,7 +186,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation for React, HTML, CSS, JavaScript, Alexa Skills, Lambda",
       image: require("./assets/images/codecademy.png"),
       footerLink: [
-        { name: "View Certifications", url: "https://www.codecademy.com/profiles/paydendyer" }
+        { name: "View Certifications", url: "https://www.codecademy.com/profiles/paydendyer" },
       ]
     }
   ]
@@ -242,7 +242,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1 402-213-2311",
+  //number: "+1 402-213-2311",
   email_address: "payden.dyer@outlook.com"
 };
 
